@@ -1,0 +1,23 @@
+sync100
+
+Create
+
+Maj: 278.2 ms
+Flex: 255.4 ms
+
+Set
+
+Maj: 250.3 ms
+Flex: 209.7 ms
+
+Read
+
+Maj: 48.5 ms
+Flex: 43.9 ms
+
+Delete
+
+Maj: 238.5 ms
+Flex: 213.7 ms
+
+

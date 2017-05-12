@@ -1,0 +1,4 @@
+Quorum  Create  Set Delete Get
+FlexibleQuorum(Q1=4,Q2=3)  255.4    209.7   213.7   43.9
+Majority(4) 278.2   250.3   238.5    48.5
+

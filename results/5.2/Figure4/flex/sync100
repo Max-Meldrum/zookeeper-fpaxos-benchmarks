@@ -1,0 +1,150 @@
+debian@paxosadmin:~/zk-smoketest$ PYTHONPATH=lib.linux-x86_64-2.6 LD_LIBRARY_PATH=lib.linux-x86_64-2.6 /usr/bin/time ./zk-latencies.py --config zk.conf --znode_count=100 --znode_size=100 --synchronous
+Connecting to 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181
+Connected in 7 ms, handle is 0
+Testing latencies on server 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181 using syncronous calls
+created     100 permanent znodes  in    300 ms (3.007779 ms/op 332.471222/sec)
+set         100           znodes  in    236 ms (2.366672 ms/op 422.534337/sec)
+get         100           znodes  in     62 ms (0.623879 ms/op 1602.873805/sec)
+deleted     100 permanent znodes  in    213 ms (2.139571 ms/op 467.383477/sec)
+created     100 ephemeral znodes  in    241 ms (2.415349 ms/op 414.018761/sec)
+watched     100           znodes  in     53 ms (0.530331 ms/op 1885.614354/sec)
+deleted     100 ephemeral znodes  in    277 ms (2.778029 ms/op 359.967387/sec)
+notif       100           watches in   1001 ms (10.010929 ms/op 99.890828/sec)
+Latency test complete
+0.02user 0.04system 0:02.42elapsed 2%CPU (0avgtext+0avgdata 9100maxresident)k
+0inputs+16outputs (0major+1325minor)pagefaults 0swaps
+debian@paxosadmin:~/zk-smoketest$ PYTHONPATH=lib.linux-x86_64-2.6 LD_LIBRARY_PATH=lib.linux-x86_64-2.6 /usr/bin/time ./zk-latencies.py --config zk.conf --znode_count=100 --znode_size=100 --synchronous
+Connecting to 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181
+Connected in 15 ms, handle is 0
+Testing latencies on server 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181 using syncronous calls
+created     100 permanent znodes  in    203 ms (2.036269 ms/op 491.094321/sec)
+set         100           znodes  in    217 ms (2.174311 ms/op 459.915875/sec)
+get         100           znodes  in     37 ms (0.379851 ms/op 2632.612148/sec)
+deleted     100 permanent znodes  in    210 ms (2.103269 ms/op 475.450336/sec)
+created     100 ephemeral znodes  in    265 ms (2.659380 ms/op 376.027433/sec)
+watched     100           znodes  in     37 ms (0.376961 ms/op 2652.792694/sec)
+deleted     100 ephemeral znodes  in    240 ms (2.407050 ms/op 415.446270/sec)
+notif       100           watches in   1001 ms (10.011051 ms/op 99.889615/sec)
+Latency test complete
+0.02user 0.03system 0:02.26elapsed 2%CPU (0avgtext+0avgdata 8908maxresident)k
+0inputs+8outputs (0major+1324minor)pagefaults 0swaps
+debian@paxosadmin:~/zk-smoketest$ PYTHONPATH=lib.linux-x86_64-2.6 LD_LIBRARY_PATH=lib.linux-x86_64-2.6 /usr/bin/time ./zk-latencies.py --config zk.conf --znode_count=100 --znode_size=100 --synchronous
+Connecting to 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181
+Connected in 7 ms, handle is 0
+Testing latencies on server 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181 using syncronous calls
+created     100 permanent znodes  in    261 ms (2.610791 ms/op 383.025720/sec)
+set         100           znodes  in    186 ms (1.869450 ms/op 534.916797/sec)
+get         100           znodes  in     40 ms (0.403268 ms/op 2479.738446/sec)
+deleted     100 permanent znodes  in    166 ms (1.667769 ms/op 599.603438/sec)
+created     100 ephemeral znodes  in    182 ms (1.825480 ms/op 547.800988/sec)
+watched     100           znodes  in     38 ms (0.387690 ms/op 2579.379985/sec)
+deleted     100 ephemeral znodes  in    254 ms (2.547412 ms/op 392.555280/sec)
+notif       100           watches in   1001 ms (10.011339 ms/op 99.886737/sec)
+Latency test complete
+0.02user 0.03system 0:02.17elapsed 2%CPU (0avgtext+0avgdata 9240maxresident)k
+0inputs+16outputs (0major+1327minor)pagefaults 0swaps
+debian@paxosadmin:~/zk-smoketest$ PYTHONPATH=lib.linux-x86_64-2.6 LD_LIBRARY_PATH=lib.linux-x86_64-2.6 /usr/bin/time ./zk-latencies.py --config zk.conf --znode_count=100 --znode_size=100 --synchronous
+Connecting to 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181
+Connected in 7 ms, handle is 0
+Testing latencies on server 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181 using syncronous calls
+created     100 permanent znodes  in    239 ms (2.390800 ms/op 418.270119/sec)
+set         100           znodes  in    223 ms (2.233400 ms/op 447.747759/sec)
+get         100           znodes  in     45 ms (0.454280 ms/op 2201.283727/sec)
+deleted     100 permanent znodes  in    280 ms (2.800179 ms/op 357.120087/sec)
+created     100 ephemeral znodes  in    289 ms (2.898729 ms/op 344.978800/sec)
+watched     100           znodes  in     38 ms (0.388031 ms/op 2577.113645/sec)
+deleted     100 ephemeral znodes  in    237 ms (2.370241 ms/op 421.898082/sec)
+notif       100           watches in   1001 ms (10.011351 ms/op 99.886618/sec)
+Latency test complete
+0.04user 0.02system 0:02.38elapsed 2%CPU (0avgtext+0avgdata 9120maxresident)k
+0inputs+16outputs (0major+1324minor)pagefaults 0swaps
+debian@paxosadmin:~/zk-smoketest$ PYTHONPATH=lib.linux-x86_64-2.6 LD_LIBRARY_PATH=lib.linux-x86_64-2.6 /usr/bin/time ./zk-latencies.py --config zk.conf --znode_count=100 --znode_size=100 --synchronous
+Connecting to 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181
+Connected in 15 ms, handle is 0
+Testing latencies on server 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181 using syncronous calls
+created     100 permanent znodes  in    334 ms (3.343341 ms/op 299.101975/sec)
+set         100           znodes  in    228 ms (2.284520 ms/op 437.728776/sec)
+get         100           znodes  in     62 ms (0.622149 ms/op 1607.333262/sec)
+deleted     100 permanent znodes  in    198 ms (1.988950 ms/op 502.777904/sec)
+created     100 ephemeral znodes  in    186 ms (1.865530 ms/op 536.040692/sec)
+watched     100           znodes  in     41 ms (0.411220 ms/op 2431.790721/sec)
+deleted     100 ephemeral znodes  in    213 ms (2.130101 ms/op 469.461367/sec)
+notif       100           watches in   1001 ms (10.011542 ms/op 99.884715/sec)
+Latency test complete
+0.04user 0.01system 0:02.31elapsed 2%CPU (0avgtext+0avgdata 9008maxresident)k
+0inputs+8outputs (0major+1324minor)pagefaults 0swaps
+debian@paxosadmin:~/zk-smoketest$ PYTHONPATH=lib.linux-x86_64-2.6 LD_LIBRARY_PATH=lib.linux-x86_64-2.6 /usr/bin/time ./zk-latencies.py --config zk.conf --znode_count=100 --znode_size=100 --synchronous
+Connecting to 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181
+Connected in 7 ms, handle is 0
+Testing latencies on server 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181 using syncronous calls
+created     100 permanent znodes  in    244 ms (2.440860 ms/op 409.691620/sec)
+set         100           znodes  in    219 ms (2.199590 ms/op 454.630138/sec)
+get         100           znodes  in     39 ms (0.395169 ms/op 2530.561220/sec)
+deleted     100 permanent znodes  in    270 ms (2.708991 ms/op 369.141188/sec)
+created     100 ephemeral znodes  in    481 ms (4.816010 ms/op 207.640765/sec)
+watched     100           znodes  in     42 ms (0.426800 ms/op 2343.016429/sec)
+deleted     100 ephemeral znodes  in    437 ms (4.374051 ms/op 228.621015/sec)
+notif       100           watches in   1001 ms (10.010860 ms/op 99.891518/sec)
+Latency test complete
+0.04user 0.02system 0:02.77elapsed 2%CPU (0avgtext+0avgdata 8924maxresident)k
+0inputs+16outputs (0major+1324minor)pagefaults 0swaps
+debian@paxosadmin:~/zk-smoketest$ PYTHONPATH=lib.linux-x86_64-2.6 LD_LIBRARY_PATH=lib.linux-x86_64-2.6 /usr/bin/time ./zk-latencies.py --config zk.conf --znode_count=100 --znode_size=100 --synchronous
+Connecting to 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181
+Connected in 7 ms, handle is 0
+Testing latencies on server 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181 using syncronous calls
+created     100 permanent znodes  in    222 ms (2.229590 ms/op 448.512872/sec)
+set         100           znodes  in    212 ms (2.123899 ms/op 470.832080/sec)
+get         100           znodes  in     44 ms (0.444841 ms/op 2247.992282/sec)
+deleted     100 permanent znodes  in    157 ms (1.578200 ms/op 633.633308/sec)
+created     100 ephemeral znodes  in    175 ms (1.757889 ms/op 568.864199/sec)
+watched     100           znodes  in     50 ms (0.509591 ms/op 1962.357653/sec)
+deleted     100 ephemeral znodes  in    254 ms (2.540481 ms/op 393.626232/sec)
+notif       100           watches in   1001 ms (10.010831 ms/op 99.891804/sec)
+Latency test complete
+0.03user 0.03system 0:02.15elapsed 2%CPU (0avgtext+0avgdata 9100maxresident)k
+0inputs+8outputs (0major+1325minor)pagefaults 0swaps
+debian@paxosadmin:~/zk-smoketest$ PYTHONPATH=lib.linux-x86_64-2.6 LD_LIBRARY_PATH=lib.linux-x86_64-2.6 /usr/bin/time ./zk-latencies.py --config zk.conf --znode_count=100 --znode_size=100 --synchronous
+Connecting to 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181
+Connected in 8 ms, handle is 0
+Testing latencies on server 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181 using syncronous calls
+created     100 permanent znodes  in    199 ms (1.993659 ms/op 501.590407/sec)
+set         100           znodes  in    177 ms (1.771579 ms/op 564.468262/sec)
+get         100           znodes  in     31 ms (0.316401 ms/op 3160.550984/sec)
+deleted     100 permanent znodes  in    184 ms (1.846321 ms/op 541.617737/sec)
+created     100 ephemeral znodes  in    197 ms (1.977990 ms/op 505.563812/sec)
+watched     100           znodes  in     33 ms (0.334561 ms/op 2988.992696/sec)
+deleted     100 ephemeral znodes  in    236 ms (2.362771 ms/op 423.231869/sec)
+notif       100           watches in   1001 ms (10.011010 ms/op 99.890019/sec)
+Latency test complete
+0.04user 0.02system 0:02.10elapsed 3%CPU (0avgtext+0avgdata 9164maxresident)k
+0inputs+16outputs (0major+1325minor)pagefaults 0swaps
+debian@paxosadmin:~/zk-smoketest$ PYTHONPATH=lib.linux-x86_64-2.6 LD_LIBRARY_PATH=lib.linux-x86_64-2.6 /usr/bin/time ./zk-latencies.py --config zk.conf --znode_count=100 --znode_size=100 --synchronous
+Connecting to 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181
+Connected in 7 ms, handle is 0
+Testing latencies on server 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181 using syncronous calls
+created     100 permanent znodes  in    310 ms (3.103580 ms/op 322.208497/sec)
+set         100           znodes  in    198 ms (1.983190 ms/op 504.238227/sec)
+get         100           znodes  in     40 ms (0.401959 ms/op 2487.813327/sec)
+deleted     100 permanent znodes  in    239 ms (2.398961 ms/op 416.847198/sec)
+created     100 ephemeral znodes  in    197 ms (1.977329 ms/op 505.732668/sec)
+watched     100           znodes  in     35 ms (0.359201 ms/op 2783.953272/sec)
+deleted     100 ephemeral znodes  in    427 ms (4.278622 ms/op 233.720127/sec)
+notif       100           watches in   1001 ms (10.010951 ms/op 99.890614/sec)
+Latency test complete
+0.02user 0.03system 0:02.48elapsed 2%CPU (0avgtext+0avgdata 9168maxresident)k
+0inputs+8outputs (0major+1326minor)pagefaults 0swaps
+debian@paxosadmin:~/zk-smoketest$ PYTHONPATH=lib.linux-x86_64-2.6 LD_LIBRARY_PATH=lib.linux-x86_64-2.6 /usr/bin/time ./zk-latencies.py --config zk.conf --znode_count=100 --znode_size=100 --synchronous
+Connecting to 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181
+Connected in 7 ms, handle is 0
+Testing latencies on server 10.2.0.16:2181,10.2.0.15:2181,10.2.0.13:2181,10.2.0.12:2181,10.2.0.11:2181,10.2.0.14:2181 using syncronous calls
+created     100 permanent znodes  in    242 ms (2.426510 ms/op 412.114543/sec)
+set         100           znodes  in    201 ms (2.014751 ms/op 496.339143/sec)
+get         100           znodes  in     39 ms (0.399430 ms/op 2503.568849/sec)
+deleted     100 permanent znodes  in    220 ms (2.208052 ms/op 452.887950/sec)
+created     100 ephemeral znodes  in    284 ms (2.843220 ms/op 351.713873/sec)
+watched     100           znodes  in     46 ms (0.462642 ms/op 2161.499851/sec)
+deleted     100 ephemeral znodes  in    227 ms (2.271550 ms/op 440.228096/sec)
+notif       100           watches in   1001 ms (10.011122 ms/op 99.888901/sec)
+Latency test complete
+0.04user 0.02system 0:02.29elapsed 2%CPU (0avgtext+0avgdata 9140maxresident)k
+0inputs+16outputs (0major+1325minor)pagefaults 0swaps
